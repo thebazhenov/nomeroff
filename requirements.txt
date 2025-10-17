@@ -1,3 +1,5 @@
+faststream
+fastapi
 cython
 setuptools
 numpy
