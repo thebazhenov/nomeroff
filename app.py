@@ -58,7 +58,3 @@ async def nomer(file: UploadFile = File(...)):
         raise HTTPException(500, f"Nomeroff error: {e}")
     finally:
         await file.close()
-
-
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8081)
